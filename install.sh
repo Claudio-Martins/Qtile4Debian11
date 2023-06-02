@@ -43,7 +43,18 @@ sudo apt install -y xfce4-terminal
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
 
 # Neofetch/HTOP
-sudo apt install -y neofetch
+sudo apt install -y neofetch htop
+
+# snap
+sudo apt install -y snapd
+sudo snap install core
+
+# vscodium
+sudo snap install codium --classic
+
+# browsers
+sudo snap install brave
+sudo snap install firefox
 
 # EXA installation
 # replace ls command in .bashrc file with line below
@@ -57,9 +68,6 @@ sudo apt install -y bluez blueman
 # sudo systemctl enable bluetooth
 sudo systemctl enable cups
 
-# Browser Installation (eg. chromium)
-sudo apt install -y firefox-esr 
-
 # Desktop background browser/handler 
 # feh --bg-fill /path/to/directory 
 # example if you want to use in autostart located in ~/.local/share/dwm/autostart.sh
@@ -67,7 +75,7 @@ sudo apt install -y feh
 # sudo apt install -y nitrogen 
 
 # Packages needed qtile after installation
-sudo apt install -y picom dunst sxhkd rofi suckless-tools libnotify-bin unzip scrot geany geany-plugin-treebrowser
+sudo apt install -y picom dunst sxhkd rofi suckless-tools libnotify-bin unzip scrot vscodium
 
 # Command line text editor -- nano preinstalled  -- I like micro but vim is great
 # sudo apt install -y micro
