@@ -4,7 +4,7 @@
 # Install packages after installing base Debian with no GUI
 
 # xorg display server installation
-sudo apt install -y xserver-xorg xinit
+sudo apt install -y xserver-xorg xinit x11-xserver-utils
 
 # INCLUDES make,etc.
 sudo apt install -y python3-pip 
