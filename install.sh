@@ -6,7 +6,7 @@
 # xorg display server installation
 sudo apt install -y xserver-xorg xinit x11-xserver-utils
 
-# INCLUDES make,etc.
+# INCLUDES make,etc.freetube
 sudo apt install -y python3-pip 
 
 # Qtile requirements
@@ -49,12 +49,30 @@ sudo apt install -y neofetch htop
 sudo apt install -y snapd
 sudo snap install core
 
+# Flatpak
+sudo apt install -y flatpak
+sudo apt install -y gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 # vscodium
 sudo snap install codium --classic
 
 # browsers
 sudo snap install brave
 sudo snap install firefox
+
+# com
+sudo snap install electron-mail
+sudo snap install zulip
+sudo snap install thunderbird
+sudo snap install telegram-desktop
+
+# media
+flatpak install -y flathub io.freetubeapp.FreeTube
+
+
+#remote
+flatpak install -y flathub com.anydesk.Anydesk
 
 # EXA installation
 # replace ls command in .bashrc file with line below
