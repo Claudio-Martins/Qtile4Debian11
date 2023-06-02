@@ -70,8 +70,8 @@ sudo apt install -y feh
 sudo apt install -y picom dunst sxhkd rofi suckless-tools libnotify-bin unzip scrot geany geany-plugin-treebrowser
 
 # Command line text editor -- nano preinstalled  -- I like micro but vim is great
-sudo apt install -y micro
-# sudo apt install -y neovim
+# sudo apt install -y micro
+sudo apt install -y neovim
 
 # Install fonts and papirus icon theme and arc-theme
 sudo apt install -y fonts-font-awesome fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus
