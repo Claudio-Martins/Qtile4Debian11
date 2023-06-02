@@ -48,6 +48,7 @@ sudo apt install -y neofetch htop
 # snap
 sudo apt install -y snapd
 sudo snap install core
+export PATH="/snap/bin":$PATH
 
 # Flatpak
 sudo apt install -y flatpak
