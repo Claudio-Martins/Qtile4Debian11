@@ -52,7 +52,7 @@ sudo apt install -y exa
 
 # Printing and bluetooth (if needed)
 sudo apt install -y cups
-# sudo apt install -y bluez blueman
+sudo apt install -y bluez blueman
 
 # sudo systemctl enable bluetooth
 sudo systemctl enable cups
