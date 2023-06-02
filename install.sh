@@ -93,8 +93,9 @@ Keywords=wm;tiling
 EOF
 sudo cp ./temp /usr/share/xsessions/qtile.desktop;rm ./temp
 u=$USER
-sudo echo "Exec=/home/$u/.local/bin/qtile start" | sudo tee -a /usr/share/xsessions/qtile.desktop
-
+# One line or the other
+# sudo echo "Exec=/home/$u/.local/bin/qtile start" | sudo tee -a /usr/share/xsessions/qtile.desktop
+sudo echo "Exec=qtile start" | sudo tee -a /usr/share/xsessions/qtile.desktop
 
 
 sudo apt autoremove
